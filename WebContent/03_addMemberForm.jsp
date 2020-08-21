@@ -9,7 +9,8 @@
 	
 	<body>
 		<h2>회원의 정보 입력 폼</h2>
-		<form action="03_addMember.jsp" method="post">
+		<!-- <form action="03_addMember.jsp" method="post"> -->
+		<form method="post" action="JoinMemberServlet">
 			<table>
 				<tr>
 					<td> 이름  </td>
@@ -21,7 +22,7 @@
 				</tr>
 				<tr>
 					<td> 별명  </td>
-					<td><input type="text" name="nickname" size="20"></td>
+					<td><input type="text" name="nickName" size="20"></td>
 				</tr>
 				<tr>
 					<td> 비밀번호  </td>
